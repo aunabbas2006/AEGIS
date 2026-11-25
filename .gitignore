@@ -1,0 +1,25 @@
+# --- Backend (Python) ---
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local SQLite database and cloned repositories (incl. the generated demo shop)
+backend/aegis.db
+backend/.workspace/
+
+# Secrets: GITHUB_TOKEN belongs in your environment, never in git
+.env
+.env.*
+!.env.example
+
+# --- Frontend --- (see also frontend/.gitignore)
+frontend/node_modules/
+frontend/.next/
+
+# --- Editors / OS / local tooling ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/

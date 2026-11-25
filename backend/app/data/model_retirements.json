@@ -1,0 +1,14 @@
+{
+  "_comment": "Curated AI-model retirement calendar. Sources: provider deprecation pages (platform.openai.com/docs/deprecations, docs.anthropic.com/en/docs/about-claude/model-deprecations). Re-verify dates against those pages before relying on them; a scheduled job is meant to keep this file current.",
+  "models": [
+    { "model_id": "text-davinci-003",           "provider": "OpenAI",    "shutdown_date": "2024-01-04", "replacement": "gpt-4o-mini" },
+    { "model_id": "gpt-3.5-turbo-0613",         "provider": "OpenAI",    "shutdown_date": "2024-09-13", "replacement": "gpt-4o-mini" },
+    { "model_id": "gpt-4-32k",                  "provider": "OpenAI",    "shutdown_date": "2025-06-06", "replacement": "gpt-4o" },
+    { "model_id": "gpt-4.5-preview",            "provider": "OpenAI",    "shutdown_date": "2025-07-14", "replacement": "gpt-4.1" },
+    { "model_id": "claude-instant-1.2",         "provider": "Anthropic", "shutdown_date": "2025-07-21", "replacement": "claude-haiku-4-5" },
+    { "model_id": "claude-2.1",                 "provider": "Anthropic", "shutdown_date": "2025-07-21", "replacement": "claude-sonnet-4-5" },
+    { "model_id": "claude-3-sonnet-20240229",   "provider": "Anthropic", "shutdown_date": "2025-07-21", "replacement": "claude-sonnet-4-5" },
+    { "model_id": "claude-3-5-sonnet-20241022", "provider": "Anthropic", "shutdown_date": "2025-10-22", "replacement": "claude-sonnet-4-5" },
+    { "model_id": "claude-3-opus-20240229",     "provider": "Anthropic", "shutdown_date": "2026-01-05", "replacement": "claude-opus-4-1" }
+  ]
+}
